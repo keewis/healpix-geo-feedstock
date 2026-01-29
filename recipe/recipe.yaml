@@ -1,6 +1,6 @@
 context:
   name: healpix-geo
-  version: "0.0.9"
+  version: "0.0.10"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/eopf-dggs/healpix-geo/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: e7abafa947a0db74d3f2aff5c4cad159f61229c12d45480934aa892eaf9001b7
+  sha256: 135920f3568329623de7e24d9836ebd4aaa4f2aca05f831c0c517505f8bec044
 
 build:
   skip:
